@@ -18,7 +18,7 @@
  *    - Find "chat":{"id": YOUR_CHAT_ID} in the response
  *
  * 3. Set Environment Variables in Vercel:
- *    - TELEGRAM_BOT_TOKEN="8458697800: AAHNOVAFjNuE®PcHY3qA26
+ *    - TELEGRAM_BOT_TOKEN= "8458697800:AAHNOVAFjNuE0PcHY3qA26
 OiHHFhbvNCGqw"
  *    - TELEGRAM_CHAT_ID= "7825226450"
  *
