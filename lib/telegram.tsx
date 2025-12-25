@@ -88,13 +88,13 @@ OiHHFhbvNCGqw"
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        chat_id: chatId, // Where to send the message (your chat ID)
+        chat_id: chatId, // Where to send the message (7825226450)
         text: message, // The formatted notification message
         parse_mode: "HTML", // Enables bold text and formatting
       }),
     })
 
-    if (!response.ok) {
+    if (!response.ok) {"7825226450"
       const errorText = await response.text()
       console.error(`[redwhalesdev] Telegram API error: ${response.status} ${response.statusText}`)
       console.error(`[redwhalesdev] Telegram API response: ${errorText}`)
